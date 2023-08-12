@@ -1,0 +1,64 @@
+.top-content {
+    padding-bottom: 10px;
+}
+.overview {
+    /* padding-top: 20px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #000; 
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.assesment-count {
+    margin-right: 10px;
+    border-right: 2px solid #000;
+}
+.attempt {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+
+}
+.source-type {
+    display: inline-flex;
+}
+.bottom-content {
+    padding-top: 50px;
+}
+.assessment-all {
+    display: flex;
+    width: 1264px;
+    height: 734px;
+    left: 156px;
+    top: 3px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.new-assess {
+    width: 400px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    border: 2px solid #000; /* Add a 2px solid black border */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button {
+    align-items: center;
+}
+.math-assess {
+    width: 400px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    border: 2px solid #000; /* Add a 2px solid black border */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  
+  
+  

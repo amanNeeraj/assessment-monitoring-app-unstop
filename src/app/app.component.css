@@ -1,0 +1,32 @@
+/* Style for the app container */
+.app-container {
+    display: flex; /* Use Flexbox */
+    height: 100vh; /* Set the height of the container */
+  }
+  
+  /* Style for the dashboard */
+  app-dashboard {
+    width: 15%; /* Set the width to 15% */
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the content container */
+  .content-container {
+    flex: 1; /* Flex to occupy remaining width */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Arrange navbar and body vertically */
+  }
+  
+  /* Style for the navbar */
+  app-navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Style for the body */
+  app-body {
+    flex: 1; /* Fill the remaining vertical space */
+    padding: 20px;
+  }
+  
