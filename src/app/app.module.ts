@@ -11,6 +11,7 @@ import { RoundStatusComponent } from './round-status/round-status.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { BodyComponent } from './body/body.component';
 import { NewAssessModalComponent } from './new-assess-modal/new-assess-modal.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { NewAssessModalComponent } from './new-assess-modal/new-assess-modal.com
     FormsModule,
     MatDialogModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
