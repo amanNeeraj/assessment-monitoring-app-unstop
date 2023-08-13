@@ -14,36 +14,33 @@ body {
     
   :root {
 
-    /* fonts */
-  --font-inter: Inter;
-
-  /* font sizes */
-  --font-size-sm: 14px;
-
-  /* Colors */
-  --secondary-5: #f2f8fe;
-  --accent-red-light: #fbebea;
-  --accent-new-red: #d63500;
-  --primary-100: #1c4980;
-  --secondary-1: #0073e6;
-
-  /* Gaps */
-  --gap-3xs: 10px;
-  --gap-5xs: 8px;
-
-  /* Paddings */
-  --padding-3xs: 10px;
-
-  /* border radiuses */
-  --br-5xs: 8px;
-    /* fonts */
+      /* fonts */
     --font-inter: Inter;
+
+    /* Colors */
+    --secondary-5: #f2f8fe;
+    --accent-red-light: #fbebea;
+    --accent-new-red: #d63500;
+    --primary-100: #1c4980;
+    --secondary-1: #0073e6;
+
+    /* Gaps */
+    --gap-3xs: 10px;
+    --gap-5xs: 8px;
+
+    /* Paddings */
+    --padding-3xs: 10px;
+
+    /* border radiuses */
+    --br-5xs: 8px;
+
   
     /* font sizes */
     --font-size-xs: 12px;
     --font-size-sm: 14px;
     --font-size-lg: 18px;
     --font-size-xl: 20px;
+    --font-size-base: 16px;
   
     /* Colors */
     --system-background: #f6f8fa;
@@ -51,6 +48,7 @@ body {
     --text-100: #1c4980;
     --accent-red-light: #fbebea;
     --accent-new-red: #d63500;
+    --accent-blue-light: #ddedff;
     --secondary-1: #0073e6;
     --system-divider: #dde5ea;
     --system-stroke2: #dadce0;
@@ -59,6 +57,7 @@ body {
     --pastel-neon-blue: #6548ee;
     --primary-50: #8da4bf;
     --status-success: #05c165;
+    --color-white: #fff;
   
     /* Gaps */
     --gap-base: 16px;
@@ -66,12 +65,14 @@ body {
     --gap-11xs: 2px;
     --gap-11xl: 30px;
     --gap-3xs: 10px;
+    --gap-8xs: 5px;
     --gap-9xs: 4px;
     --gap-sm: 14px;
     --gap-12xs: 1px;
     --gap-xl: 20px;
   
     /* Paddings */
+    --padding-mini: 15px;
     --padding-base: 16px;
     --padding-xl: 20px;
     --padding-11xl: 30px;
@@ -88,6 +89,10 @@ body {
     --br-13xl-7: 32.7px;
     --br-31xl: 50px;
     --br-51xl: 70px;
+    --br-3xl: 22px;
+    --br-mini: 15px;
   }
     
   
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

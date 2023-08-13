@@ -1,8 +1,91 @@
-.nav-container {
-    background-color:#FFFFFF;
-    padding: 10px;
-}
-.right-icon {
-    float:right;
-    margin-left: 950px;
-}
+.frame-child {
+    position: absolute;
+    top: 2px;
+    left: 156px;
+    width: 1264px;
+  }
+  .assessment {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+  }
+  .frame-item {
+    position: relative;
+    width: 1px;
+    height: 46px;
+  }
+  .my-assessments {
+    position: relative;
+    font-weight: 600;
+  }
+  .my-assessments-wrapper {
+    background-color: var(--text-white);
+    border-bottom: 3px solid var(--secondary-1);
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs) 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .assessment-parent,
+  .frame-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    align-items: flex-start;
+    font-size: var(--font-size-sm);
+    color: var(--secondary-1);
+  }
+  .assessment-parent {
+    align-self: stretch;
+    align-items: center;
+    gap: var(--gap-xl);
+  }
+  .mobile-screen-share-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-container,
+  .mobile-screen-share-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .mobile-screen-share-wrapper {
+    border-radius: var(--br-51xl);
+    background-color: var(--text-white);
+    width: 40px;
+    height: 40px;
+    padding: var(--padding-3xs);
+    box-sizing: border-box;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .frame-container {
+    align-self: stretch;
+    flex: 1;
+    justify-content: space-between;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    border-radius: var(--br-xs) var(--br-xs) 0 0;
+    background-color: var(--text-white);
+    border-bottom: 1px solid var(--system-divider);
+    box-sizing: border-box;
+    height: 71px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--padding-xl);
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+  }
