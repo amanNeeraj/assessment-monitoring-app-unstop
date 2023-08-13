@@ -81,7 +81,7 @@
 }
 .frame-container {
   border-radius: var(--br-5xs);
-  background-color: #e5f1fc;
+  background-color: #fff;
   border: 1px solid var(--secondary-1);
   box-sizing: border-box;
   height: 50px;
