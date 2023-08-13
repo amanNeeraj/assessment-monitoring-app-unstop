@@ -1,11 +1,12 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { Component, OnInit, Renderer2, ViewEncapsulation } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { NewAssessModalComponent } from '../new-assess-modal/new-assess-modal.component';
 
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
-  styleUrls: ['./body.component.css']
+  styleUrls: ['./body.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class BodyComponent implements OnInit {
   constructor(private renderer: Renderer2, private dialog: MatDialog ) { }
